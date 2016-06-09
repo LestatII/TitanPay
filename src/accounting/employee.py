@@ -13,10 +13,10 @@ class Employee:
         self.__employee_id = employee_id
 
     def set_first_name(self, first_name):
-            self.__first_name = first_name
+        self.__first_name = first_name
 
     def set_last_name(self, last_name):
-            self.__last_name = last_name
+        self.__last_name = last_name
 
     # The get_full_name function will get first and last name and order them as last_name, first_name.
     def get_full_name(last_name, first_name):
