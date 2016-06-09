@@ -20,7 +20,8 @@ class Employee:
 
     # The get_full_name function will get first and last name and order them as last_name, first_name.
     def get_full_name(last_name, first_name):
-        return __full_name = ()
+        fullname = last_name + ', ' + first_name
+        return fullname
 
     def get_employee_id(self):
         return self.__employee_id
