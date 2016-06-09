@@ -9,7 +9,8 @@ class Employee:
         self.__weekly_dues = weekly_dues
 
     # The following methods are mutators for the class's data attributes.
-    def get_employee_id =
+    def set_employee_id(self, employee_id):
+        self.__employee_id = employee_id
 
     def set_first_name(self, first_name):
             self.__first_name = first_name
